@@ -1,0 +1,108 @@
+@media(max-width:1199px){
+    .welcome h2 {
+        font-size: 40px
+    }
+    .welcome h3 {
+        font-size: 25px
+    }
+    .search-admin {
+        width: 40% !important
+    }
+}
+@media(max-width:991px){
+    .welcome {
+        display: none
+    }
+   
+    .search-admin {
+        width: 30% !important
+    }
+    .control-admin {
+        margin-left: 0 !important
+    }
+}
+@media(max-width:767px){
+    .rating-card .card-img{
+        width: 50px;
+        height: 50px;
+    }
+    .rating-card .content{
+        width: calc(100% - 60px);
+    }
+    .nav-tabs {
+        display: block
+    }
+    .profileView{
+        padding: 20px 10px
+    }
+    .logo-brand,
+    .search-admin{
+        display: none
+    }
+    .nothing-show  {
+        background-size: 80%
+    }
+    .side-bar-icon .page-body-wrapper .main-panel {
+        padding: 20px 10px;
+/*        width: 100%;    */
+    }
+    .boxCard{
+        margin:30px 0
+    }
+    .profileView .about p {
+        width: 100%
+    }
+}
+@media(max-width:575px){
+    .start-box{
+        padding: 5px 30px
+    }
+    .control-admin ul li .sub-menu {
+        right: -86px;
+        width: 320px;
+    }
+    .control-admin ul li .sub-menu:after {
+        left: calc(50% + 53px);
+    }
+   
+    .main-panel.hide-phone {
+        display: none
+    }
+    .added{
+        background-size: 100%
+    }
+    .actions ,
+    .custom-btn.prev,
+    .custom-btn.next{
+        display: block !important;
+        text-align: center
+    }
+    .progresses{
+        padding: 10px 0
+    }
+    .gray-box{
+        min-height: 125px
+    }
+    .gray-box.box-lg{
+        width: 170px;
+    }
+    .gray-box.box-sm{
+        width: 180px;
+    }
+    .gray-box.box-sm .main-span {
+        width: 60px;
+        height: 60px;
+        padding-top: 9px;
+        top: -18px;
+        left: -27px;
+        font-size: 12px;
+    }
+    .gray-box .gray-title{
+        font-size: 15px
+    }
+    .gray-box.box-lg .main-span {
+        left: -25px;
+        width: 45px;
+        font-size: 20px
+    }
+}
